@@ -26,3 +26,31 @@
 #     for handling run-time errors
 # 4. Asserts can globally be disabled with an interpreter setting
 # """
+
+#####
+
+## Complacent comma placement
+
+# """defining list, dict or set with spread out technique"""
+# name = [
+#     "Anshu",
+#     "Sahil",
+#     "Jane" # concatenates JaneAmy,when no commas
+#     "Amy"
+# ]
+
+# print(name)
+
+# """useful way to write long strings, splitted across multiple lines of strings"""
+# myStr = ("This is what I intended to be, "
+#          "a Python programemr.")
+# print(myStr)
+
+# """Here's the final trick"""
+# name = [
+#     "Jane",
+#     "Austin",
+#     "Sam",
+# ]
+
+# print(name)
